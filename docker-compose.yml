@@ -1,0 +1,13 @@
+services:
+  nlp_app:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    ports:
+      - "8501:8501" # Streamlit default port
+      - "8888:8888" # JupyterLab default port
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''
+    tty: true
+    stdin_open: true

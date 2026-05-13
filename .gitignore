@@ -4,5 +4,10 @@ data/
 # notes
 app/notes/
 
-# code
-test.py
+.env
+.ipynb_checkpoints/
+
+.devcontainer/
+__pycache__/
+
+engine.py

@@ -8,3 +8,6 @@ langchain-groq
 streamlit
 python-dotenv
 torch
+jupyterlab
+matplotlib
+seaborn
