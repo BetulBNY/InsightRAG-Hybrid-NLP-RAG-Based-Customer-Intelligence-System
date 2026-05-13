@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+transformers
+sentence-transformers
+chromadb
+langchain
+langchain-groq
+streamlit
+python-dotenv
+torch
