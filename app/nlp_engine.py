@@ -6,7 +6,7 @@ class NLPEngine:
 
         # Pre-trained model for sentiment analysis (Transformer)
         print("Model loading...")
-        self.sentiment_analyzer = pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english")
+        self.sentiment_analyzer = pipeline("sentiment-analysis", model="cardiffnlp/twitter-roberta-base-sentiment-latest")
 
     def load_data(self, file_path):
         df = pd.read_csv(file_path)

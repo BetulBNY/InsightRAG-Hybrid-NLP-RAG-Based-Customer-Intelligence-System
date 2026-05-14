@@ -3,6 +3,7 @@ services:
     build: .
     volumes:
       - .:/app
+      - ./hf_cache:/root/.cache/huggingface # Cache for Hugging Face models (for note downloading models every time)
     env_file:
       - .env
     ports:
