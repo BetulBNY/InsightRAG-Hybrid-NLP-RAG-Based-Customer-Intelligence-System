@@ -4,11 +4,13 @@ transformers
 sentence-transformers
 chromadb
 langchain
+langchain-community
 langchain-groq
 streamlit
 python-dotenv
+streamlit
 torch
 jupyterlab
 matplotlib
 seaborn
-#mlflow
+mlflow

@@ -7,6 +7,17 @@ app/notes/
 .env
 .ipynb_checkpoints/
 
+# Container configuration files
 .devcontainer/
-__pycache__/
 
+# Python cache and other temporary files
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Models and databases
+hf_cache/
+chroma_db/
+
+vector_engine.py
