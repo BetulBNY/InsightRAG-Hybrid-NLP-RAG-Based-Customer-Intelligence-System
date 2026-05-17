@@ -19,5 +19,4 @@ venv/
 # Models and databases
 hf_cache/
 chroma_db/
-
-vector_engine.py
+chroma_db_v2/
